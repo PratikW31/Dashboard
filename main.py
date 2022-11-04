@@ -39,7 +39,7 @@ with col3:
 #lastvalues2=lastvalue2.values
 
 
-newdf=pd.read_csv("C:/Users/asus/Desktop/DATA/Programming.csv")
+newdf=pd.read_csv("Programming.csv")
 
 listdates=list(newdf["Date"])
 listdates.insert(0,"All")
