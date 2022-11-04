@@ -4,7 +4,7 @@ import plotly.express as px
 st.set_page_config(layout="wide")
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-df=pd.read_csv("C:/Users/asus/Desktop/DATA/Programming.csv")
+df=pd.read_csv("Programming.csv")
 st.title("Programming Languages")
 df=df.set_index("Date")
 listcolumns=list(df.columns)
@@ -34,7 +34,7 @@ with col3:
 #lastvalues2=lastvalue2.values
 
 
-newdf=pd.read_csv("C:/Users/asus/Desktop/DATA/Programming.csv")
+newdf=pd.read_csv("Programming.csv")
 listdates=list(newdf["Date"])
 listdates.insert(0,"All")
 defaultix=listdates.index("January 2022")
